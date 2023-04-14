@@ -12,12 +12,13 @@
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media.css">
     <title>Web studio</title>
 </head>
 <body>
 
 <!-- HEADER -->
-    <header class="header">
+    <!-- <header class="header">
         <div class="container header-container">
         <nav class="header-nav">
             <a class="header-logo link" href="./index.html">Web<span class="header-logo-hi" >Studio</span></a> 
@@ -35,17 +36,19 @@
             </ul>
         </address>
         </div>
-    </header>
+    </header> -->
 
 <!-- SECTION_1 -->
     <main>  
-        <section class="hero" >
-            <h1 class="hero-title" >Effective Solutions <br>for Your Business</h1>
-                <button data-modal-open class="hero-button" type="button">Order Service</button>
+        <section class="hero">
+            <div class="container hero-container">
+                <h1 class="hero-title">Effective Solutions for Your Business</h1>
+                <button class="hero-button" data-modal-open type="button">Order Service</button>
+            </div>
         </section>
 
 <!-- SECTION_2 -->
-    <section class="strategy">
+    <!-- <section class="strategy">
         <div class="container">
         <h2 class="title visually-hidden">Strategy</h2>
             <ul class="stratrgy-li list">           
@@ -67,10 +70,63 @@
                 </li>
             </ul>
         </div>
-    </section>
+    </section> -->
+
+            <section class="strategy">
+                <div class="container">
+                    <h2 class="strategy-title visually-hidden">goals</h2>
+                    <ul class="strategy-list list">
+                        <li class="strategy-item">
+                            <div class="strategy-icon-container">
+                                <svg width="64" height="64" class="strategy-icon">
+                                    <use href="./images/svg/symbol-defs.svg#icon-antenna"></use>
+                                </svg>
+                            </div>
+                            <h3 class="strategy-title">Strategy</h3>
+                            <p class="strategy-text">Our goal is to identify the business problem to walk away with the perfect
+                                and creative solution.
+                            </p>
+                        </li>
+                        <li class="strategy-item">
+                            <div class="strategy-icon-container">
+                                <svg width="64" height="64" class="strategy-icon">
+                                    <use href="./images/svg/symbol-defs.svg#icon-clock"></use>
+                                </svg>
+                            </div>
+                            <h3 class="strategy-title">Punctuality</h3>
+                            <p class="strategy-text">Bring the key message to the brand's audience for the best price within the
+                                shortest possible time.
+                            </p>
+                        </li>
+                        <li class="strategy-item">
+                            <div class="strategy-icon-container">
+                                <svg width="64" height="64" class="strategy-icon">
+                                    <use href="./images/svg/symbol-defs.svg#icon-diagram"></use>
+                                </svg>
+                            </div>
+                            <h3 class="strategy-title">Diligence</h3>
+                            <p class="strategy-text">Research and confirm brands that present the strongest digital growth
+                                opportunities and minimize risk.
+                            </p>
+                        </li>
+                        <li class="strategy-item">
+                            <div class="strategy-icon-container">
+                                <svg width="64" height="64" class="strategy-icon">
+                                    <use href="./images/svg/symbol-defs.svg#icon-astronaut"></use>
+                                </svg>
+                            </div>
+                            <h3 class="strategy-title">Technologies</h3>
+                            <p class="strategy-text">Design practice focused on digital experiences. We bring forth a deep
+                                passion for problem-solving.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
 
 <!-- SECTION_3 -->
-    <section class="doing">
+    <!-- <section class="doing">
         <div class="container">
         <h2 class="title"> What are we doing</h2>
             <ul class="doing-list">
@@ -85,10 +141,10 @@
                 </li>
             </ul>
         </div>
-    </section>
+    </section> -->
 
 <!-- SECTION_4 -->
-    <section class="team">
+    <!-- <section class="team">
         <div class="container">
         <h2 class="team-title title">Our Team</h2>
             <ul class="team-company list">
@@ -242,9 +298,9 @@
                 </li>
             </ul>
         </div>
-    </section>
+    </section> -->
 <!-- SECTION_Customers -->
-    <section class="customers">
+    <!-- <section class="customers">
         <h2 class="customers-title title">Customers</h2>
         <div class="container">
             <ul class="customers-list list"> 
@@ -295,12 +351,12 @@
         </div>
     
 
-    </section>
+    </section> -->
 
     </main>
     
 <!-- FOOTER -->
-<footer class="footer link ">
+<!-- <footer class="footer link ">
     <section class="footer-list container">
         <div class="footer-left">
             <a class="footer-logo link" href="./index.html">Web<span class="footer-logo-hi">Studio</span></a>
@@ -357,12 +413,12 @@
             </form>
         </div>
     </section>
-</footer>
+</footer> -->
 
 
 
 <!-- Modal -->
-<div class="backdrop is-hidden" data-modal>
+<!-- <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <button data-modal-close type="button" class="button-modal" >
             <svg  class="button-close" width="8" height="8" >
@@ -439,7 +495,7 @@
         </form>
     </div>
 </div>
-<script src="./js/modal.js"></script>
+<script src="./js/modal.js"></script> -->
 
 </body>
 </html>

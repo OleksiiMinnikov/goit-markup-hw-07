@@ -1,0 +1,93 @@
+@media screen and (min-width: 428px) {
+    .container {
+        width: 428px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* .subscribe-input {
+        width: 264px;
+    } */
+
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        width: 496px;
+}
+/*********** SECTION_2_STRATEGY ***********/
+.strategy-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.strategy-item:nth-child(-n + 2) {
+    margin-bottom: 72px;
+}
+
+.strategy-item {
+    width: calc((100% - 24px) / 2);
+}
+
+.strategy-title {
+    text-align: left;
+}
+
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1158px;
+    }
+
+/*********** SECTION_2_STRATEGY ***********/
+    .strategy {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .strategy-list {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .strategy-item:nth-child(-n + 2) {
+        margin-bottom: 0;
+    }
+
+    .strategy-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: left;
+    }
+
+    .strategy-text {
+        font-weight: 400;
+        order: 2;
+    }
+
+    .strategy-icon-container {
+        display: flex;
+        justify-content: center;
+        background-color: var(--goal-icon-cont-bcgcolor);
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+
+    .strategy-icon {
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+}
