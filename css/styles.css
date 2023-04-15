@@ -341,12 +341,26 @@ address {
     text-decoration: none;
 }
 
-.mob-menu-social-list {
+/* .mob-menu-social-list {
     display: flex;
     margin-top: 0;
     gap: 56px;
+} */
+/* .mob-menu-social-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 0;
+    gap: 16px;
+} */
+
+/* .mob-menu-social-item {
+    flex-basis: calc((100% / 4) - 56px);
 }
 
+.mob-menu-social-item {
+    flex-basis: calc(50% - 8px);
+}  */
 .mob-menu-social-item {}
 
 .mob-menu-social-link {
