@@ -161,17 +161,18 @@
         color: #404bbf;
     } */
 
-    /**---------SECTION GOALS---------*/
+    /**---------SECTION strategy---------*/
 
-    .strategy-list {
+   .strategy-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 24px;
-    }
+        row-gap: 48px;
+        column-gap: 24px;
+   }
 
-    .strategy-item:nth-child(-n + 2) {
-        margin-bottom: 72px;
-    }
+    /* .strategy-item:nth-child(-n + 2) {
+        gap: 72px ;
+    } */
 
     .strategy-item {
         width: calc((100% - 24px) / 2);
@@ -206,13 +207,13 @@
     }
 
     .footer-container-container {
-        width: 552px;
+        width: 582px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
         flex-wrap: wrap;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
         flex-direction: row;
         align-items: flex-start;
     }
