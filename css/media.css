@@ -3,7 +3,8 @@
     .subscribe-input {
         width: 320px;
         }
-}|
+}
+
 @media screen and (min-width: 428px) {
     .container {
         width: 428px;
