@@ -264,7 +264,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1158px) {
     .header-adress:first-child {
-        margin-bottom: 6px;
+        margin-bottom: 12px;
+        
     }
 
          .container-container {
