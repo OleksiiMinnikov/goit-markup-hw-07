@@ -11,7 +11,55 @@
      .mob-menu-tel-link {
         font-size: 20px;
     }
+/*********** PAGEST PORTFOLIO ***********/
+.navigator {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
 
+.navigator-but {
+    display: flex;
+    gap: 16px 24px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+
+
+
+
+
+.navigator-list {
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.por-img {
+    width: 100%;
+    position: relative;
+}
+
+.por-titel {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-text-color);
+    margin-bottom: 8px;
+}
+
+.por-paragraph {
+    color: var(--titel-text-color);
+}
+
+.por-animativ {
+    position: relative;
+    overflow: hidden;
+
+
+}
 }
 
 @media screen and (min-width: 428px) {
@@ -29,7 +77,57 @@
          .mob-menu-tel-link {
              font-size: 36px;
          }
-     
+/* ********** PAGEST PORTFOLIO **********
+.navigator {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.navigator-but {
+    display: flex;
+    gap: 16px 24px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+
+
+
+
+
+.navigator-list {
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.por-img {
+    width: 100%;
+    position: relative;
+}
+
+.por-titel {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-text-color);
+    margin-bottom: 8px;
+}
+
+.por-paragraph {
+    color: var(--titel-text-color);
+}
+
+.por-animativ {
+    position: relative;
+    overflow: hidden;
+
+
+} */
+
+
 
 }
 
@@ -278,6 +376,23 @@
     .subscribe-btn {
         margin-top: 0;
     }
+
+/*********** PAGEST PORTFOLIO ***********/
+    .navigator{
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+    .navigator-but{
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+    .navigator-list{
+        gap: 72px 16px;
+        justify-content: start;
+    }
+
+
+
 }
 
 
@@ -538,5 +653,14 @@
             opacity: 1;
 
         }
+/*********** PAGEST PORTFOLIO ***********/
+        .navigator {
+            padding-top: 96px;
+            padding-bottom: 120px;
+        }
     
+        .navigator-list {
+            gap: 48px 24px;
+        }
+
 }
