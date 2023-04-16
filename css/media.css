@@ -387,9 +387,13 @@
         margin-bottom: 64px;
     }
     .navigator-list{
-        gap: 72px 16px;
+        gap: 72px 24px;
         justify-content: start;
+        
     }
+        .navigator-li {
+            width: calc(50% - 12px);
+        }
 
 
 
@@ -661,6 +665,10 @@
     
         .navigator-list {
             gap: 48px 24px;
+        }
+
+         .navigator-li {
+           width: calc((100% - 144px) / 3);
         }
 
 }
